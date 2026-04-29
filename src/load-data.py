@@ -138,6 +138,7 @@ def process_all_subjects(data_dir=DATA_DIR, downsample_factor=4):
     gc.collect()
 
     return X_train_all, y_train_all, (final_ch_1, final_ch_2, final_ch_3)
+<<<<<<< Updated upstream
 
 
 if __name__ == "__main__":
@@ -147,3 +148,5 @@ if __name__ == "__main__":
     idx, row = random_select_row(X_train_all)
     print("Random row index:", idx)
     print("Random row shape:", np.shape(row))
+=======
+>>>>>>> Stashed changes
