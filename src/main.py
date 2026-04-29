@@ -96,7 +96,7 @@ fig.update_layout(
         'xanchor': 'center',
         'yanchor': 'top',
         'buttons': [
-            {'label': 'Send ECoG channel simulation', 'method': 'animate', 'args': [None, {'frame': {'duration': 10, 'redraw': True}, 'fromcurrent': True, 'mode': 'immediate'}]}
+            {'label': 'Send Random Test ECoG channels to model', 'method': 'animate', 'args': [None, {'frame': {'duration': 10, 'redraw': True}, 'fromcurrent': True, 'mode': 'immediate'}]}
         ]
     }],
     xaxis_title='Downsampled Time',
